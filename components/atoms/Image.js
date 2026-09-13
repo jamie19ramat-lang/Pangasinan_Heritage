@@ -1,0 +1,3 @@
+export default function HeritageImage({ src, alt, className = "" }) {
+  return <img className={className} src={src} alt={alt} loading="lazy" />;
+}
